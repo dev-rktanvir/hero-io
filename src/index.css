@@ -17,3 +17,27 @@
     --color-primary: #001931;
     --color-secondary: #627382;
 }
+
+/* Primary Gradient Color */
+.gradient-clr {
+    background: linear-gradient(180deg, #632EE3, #9F62F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Standard property (for future support) */
+    background-clip: text;
+    color: transparent;
+}
+
+/* Style for NavLink */
+a.active {
+    background: linear-gradient(180deg, #632EE3, #9F62F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Standard property (for future support) */
+    background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
