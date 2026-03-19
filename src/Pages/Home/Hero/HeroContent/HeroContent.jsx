@@ -16,14 +16,26 @@ const HeroContent = () => {
                 </div>
                 {/* Buttons */}
                 <div className='flex items-center justify-center gap-4 my-10'>
-                    <button className='flex items-center justify-center gap-2 lg:gap-2.5 px-3 py-3 rounded-sm border border-[#D2D2D2] cursor-pointer lg:w-52'>
-                        <img src={googlePlay} alt="" />
-                        <p className='md:text-xl font-semibold text-primary'>Google Play</p>
-                    </button>
-                    <button className='flex items-center justify-center gap-2 lg:gap-2.5 px-6 py-3 rounded-sm border border-[#D2D2D2] cursor-pointer lg:w-52'>
-                        <img src={appleStore} alt="" />
-                        <p className='md:text-xl font-semibold text-primary'>App Store</p>
-                    </button>
+                    {/* Play store Button */}
+                    <a href="https://play.google.com/store/apps?hl=en"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <button className='flex items-center justify-center gap-2 lg:gap-2.5 px-3 py-3 rounded-sm border border-[#D2D2D2] cursor-pointer lg:w-52'>
+                            <img src={googlePlay} alt="" />
+                            <p className='md:text-xl font-semibold text-primary'>Google Play</p>
+                        </button>
+                    </a>
+
+                    {/* App store button */}
+                    <a href="https://www.apple.com/app-store/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className='flex items-center justify-center gap-2 lg:gap-2.5 px-6 py-3 rounded-sm border border-[#D2D2D2] cursor-pointer lg:w-52'>
+                            <img src={appleStore} alt="" />
+                            <p className='md:text-xl font-semibold text-primary'>App Store</p>
+                        </button>
+                    </a>
                 </div>
             </div>
             {/* Iamge part */}

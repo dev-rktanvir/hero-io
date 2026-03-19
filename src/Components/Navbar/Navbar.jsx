@@ -27,10 +27,15 @@ const Navbar = () => {
 
                     {/* Right side */}
                     <div>
-                        <button className='hidden lg:flex items-center gap-2.5 px-4 py-3 rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer'>
-                            <FaGithub className='text-white' size={20} />
-                            <h2 className='font-semibold text-white'>Contribute</h2>
-                        </button>
+                        <a href="https://github.com/dev-rktanvir/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className='hidden lg:flex items-center gap-2.5 px-4 py-3 rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer'>
+                                <FaGithub className='text-white' size={20} />
+                                <h2 className='font-semibold text-white'>Contribute</h2>
+                            </button>
+                        </a>
                         <FaBars onClick={() => setOpenMenu(!openMenu)} className='lg:hidden text-[#632EE3]' size={32} />
                     </div>
                 </div>
