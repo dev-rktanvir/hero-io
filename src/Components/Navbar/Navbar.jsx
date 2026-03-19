@@ -11,10 +11,12 @@ const Navbar = () => {
                 {/* NavBar */}
                 <div className='container mx-auto px-3 py-4 flex items-center justify-between'>
                     {/* Left side */}
-                    <div className='flex items-center gap-2'>
-                        <img className='w-10 h-10' src={logo} alt="" />
-                        <h2 className='font-bold leading-6 gradient-clr'>HERO.IO</h2>
-                    </div>
+                    <Link to={'/'}>
+                        <div className='flex items-center gap-2'>
+                            <img className='w-10 h-10' src={logo} alt="" />
+                            <h2 className='font-bold leading-6 text-xl'>HERO.IO</h2>
+                        </div>
+                    </Link>
 
                     {/* Middle Side */}
                     <div className='hidden lg:flex items-center gap-8 font-medium text-base text-black'>
