@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#001931] border-t border-[#E9E9E9] mt-16">
+        <footer className="bg-[#001931]">
             <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8 text-white">
 
                 {/* Brand */}

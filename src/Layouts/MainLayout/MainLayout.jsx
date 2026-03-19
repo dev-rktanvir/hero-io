@@ -12,7 +12,9 @@ const MainLayout = () => {
             </header>
 
             {/* Main */}
-            <Outlet></Outlet>
+            <main>
+                <Outlet></Outlet>
+            </main>
 
             {/* Footer */}
             <footer>

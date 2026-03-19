@@ -7,7 +7,7 @@ const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
     return (
         <>
-            <nav className='bg-white border-b border-[#E9E9E9]'>
+            <nav className='bg-white border-b border-[#E9E9E9] shadow-sm'>
                 {/* NavBar */}
                 <div className='container mx-auto px-3 py-4 flex items-center justify-between'>
                     {/* Left side */}
