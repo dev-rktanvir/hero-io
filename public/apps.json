@@ -99,7 +99,7 @@
         ]
     },
     {
-        "image": "https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/485821374_685729317302838_1291923560301735909_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeEoNBXVxkcWkmBXLkI1m0765pYB1mdf6NjmlgHWZ1_o2N55LiigqP_-fSO82lDd7kWVsMMlVpXZ7R_rYI8omyYf&_nc_ohc=yjzmR5ggmOUQ7kNvwHhsdqY&_nc_oc=AdonMNhnTBp7ZAY7JdJ_HmysJi--AZQZ4Win3d0x5VgFSVrG-Fs2KNwDjKAWyG19DTQ&_nc_zt=23&_nc_ht=scontent.fzyl2-1.fna&_nc_gid=1UJYkfVHMR_WM9ro-4KErw&_nc_ss=8&oh=00_AfyZoW_5lAPZOYwPvV_4ruPJorFop-IM_Tpbqdc3Wtqj7g&oe=69C2161E",
+        "image": "https://image.winudf.com/v2/image1/Y29tLmdvb2dsZS5hbmRyb2lkLnlvdXR1YmVfaWNvbl8xNzI5NjUyNjk4XzA0Ng/icon.webp?w=140&fakeurl=1&type=.webp",
         "title": "YouTube",
         "companyName": "Google LLC",
         "id": 4,
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/250px-Spotify_App_Logo.svg.png",
+        "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=w240-h480-rw",
         "title": "Spotify: Music & Podcasts",
         "companyName": "Spotify Ltd.",
         "id": 5,
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/netflix.png",
+        "image": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI=w240-h480-rw",
         "title": "Netflix",
         "companyName": "Netflix, Inc.",
         "id": 6,
@@ -264,7 +264,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/gmail.png",
+        "image": "https://play-lh.googleusercontent.com/KSuaRLiI_FlDP8cM4MzJ23ml3og5Hxb9AapaGTMZ2GgR103mvJ3AAnoOFz1yheeQBBI=w240-h480-rw",
         "title": "Gmail – Email by Google",
         "companyName": "Google LLC",
         "id": 9,
@@ -330,7 +330,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/uber.png",
+        "image": "https://play-lh.googleusercontent.com/n109V9dur2NFwV7Fbr8lwlU-isXRR0K7Q-pvp1LCyRwTVP2DfJaR-dklmXzK0MhQuz9E=w240-h480-rw",
         "title": "Uber",
         "companyName": "Uber Technologies, Inc.",
         "id": 11,
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/airbnb.png",
+        "image": "https://play-lh.googleusercontent.com/5ZOQbuxacVOWK6AM4Env-adyEWRUCJt0VrUl9bWKW4Z4qLSjJUBuMP8-dALMy9oWu530=w240-h480-rw",
         "title": "Airbnb",
         "companyName": "Airbnb, Inc.",
         "id": 12,
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/dropbox.png",
+        "image": "https://image.winudf.com/v2/image1/Y29tLmRyb3Bib3guYW5kcm9pZF9pY29uXzE2NjAwODYzNjdfMDE1/icon.webp?w=320&fakeurl=1&type=.webp",
         "title": "Dropbox",
         "companyName": "Dropbox, Inc.",
         "id": 13,
@@ -429,7 +429,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/slack.png",
+        "image": "https://play-lh.googleusercontent.com/mzJpTCsTW_FuR6YqOPaLHrSEVCSJuXzCljdxnCKhVZMcu6EESZBQTCHxMh8slVtnKqo=w240-h480-rw",
         "title": "Slack",
         "companyName": "Slack Technologies",
         "id": 14,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/evernote.png",
+        "image": "https://image.winudf.com/v2/image1/Y29tLmV2ZXJub3RlX2ljb25fMTc1OTc3MDgyNl8wMjE/icon.webp?w=320&fakeurl=1&type=.webp",
         "title": "Evernote",
         "companyName": "Evernote Corporation",
         "id": 15,
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/zoom.png",
+        "image": "https://play-lh.googleusercontent.com/yZsmiNjmji3ZoOuLthoVvptLB9cZ0vCmitcky4OUXNcEFV3IEQkrBD2uu5kuWRF5_ERA=w240-h480-rw",
         "title": "Zoom Cloud Meetings",
         "companyName": "Zoom Video Communications",
         "id": 16,
@@ -561,7 +561,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/paypal.png",
+        "image": "https://image.winudf.com/v2/image1/Y29tLnBheXBhbC5hbmRyb2lkLnAycG1vYmlsZV9pY29uXzE3MjUzODA1NDNfMDM0/icon.webp?w=320&fakeurl=1&type=.webp",
         "title": "PayPal",
         "companyName": "PayPal Holdings, Inc.",
         "id": 18,
@@ -594,7 +594,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/candycrush.png",
+        "image": "https://image.winudf.com/v2/image1/Y29tLmtpbmcuY2FuZHljcnVzaHNhZ2FfaWNvbl8xNzYyMjM5NjUwXzA0Ng/icon.webp?w=320&fakeurl=1&type=.webp",
         "title": "Candy Crush Saga",
         "companyName": "King",
         "id": 19,
@@ -627,7 +627,7 @@
         ]
     },
     {
-        "image": "https://example.com/icons/pinterest.png",
+        "image": "https://play-lh.googleusercontent.com/6CFQQ0b9r5fzF1v6f0gIirWsOGL7sGWkJifuUQxxhbCMcBx5aSG_cNXpjDKDn5c1jwjq=w240-h480-rw",
         "title": "Pinterest",
         "companyName": "Pinterest, Inc.",
         "id": 20,

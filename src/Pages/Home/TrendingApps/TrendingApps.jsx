@@ -1,5 +1,6 @@
 import React from 'react';
 import AppCard from './AppCard/AppCard';
+import { Link } from 'react-router';
 
 const TrendingApps = ({ allApps }) => {
     const trendingApps = allApps.sort((a, b) => b.downloads - a.downloads);
@@ -22,7 +23,9 @@ const TrendingApps = ({ allApps }) => {
 
             {/* Show All Btn */}
             <div>
-                <button className='px-4 py-3 rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer text-white w-36.25'>Show All</button>
+                <Link to={'/apps'}>
+                    <button className='px-4 py-3 rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer text-white w-36.25'>Show All</button>
+                </Link>
             </div>
         </div>
     );

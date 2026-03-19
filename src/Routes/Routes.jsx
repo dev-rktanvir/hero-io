@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../Layouts/MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
+import Apps from "../Pages/Apps/Apps";
 
 export const router = createBrowserRouter([
     {
@@ -11,6 +12,11 @@ export const router = createBrowserRouter([
                 index: true,
                 loader: () => fetch('/apps.json'),
                 Component: Home
+            },
+            {
+                path: "apps",
+                loader: () => fetch('/apps.json'),
+                Component: Apps
             }
         ]
     }
