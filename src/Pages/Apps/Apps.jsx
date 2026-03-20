@@ -9,7 +9,7 @@ const Apps = () => {
         <div className='container mx-auto px-3 py-10 lg:py-20 text-center'>
             {/* Title & Sub Title */}
             <div>
-                <h2 className='font-bold text-5xl text-primary'>Our All Applications</h2>
+                <h2 className='font-bold text-4xl md:text-5xl text-primary'>Our All Applications</h2>
                 <p className='text-xl text-secondary mt-4'>
                     Explore All Apps on the Market developed by us. We code for Millions
                 </p>

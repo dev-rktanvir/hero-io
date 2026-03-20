@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import AppStatDetails from './AppStatDetails';
 import downloadImg from '../../../assets/icon-downloads.png';
 import starIcon from '../../../assets/icon-ratings.png';
 import reviewIcon from '../../../assets/icon-review.png';
 import { addCart, getCart } from '../../../utilities/utilities';
+import toast from 'react-hot-toast';
 
 const AppStat = ({ appData }) => {
     const { id, image, title, companyName, size, reviews, ratingAvg, downloads } = appData;
@@ -16,6 +17,8 @@ const AppStat = ({ appData }) => {
     // Handle Install Now Button
     const handleInstallNowBtn = () => {
         setInstall(true);
+        // Toast Message
+        toast.success("App Successfully Installed");
 
         // save to local storage
         addCart(id);

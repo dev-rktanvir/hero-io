@@ -22,7 +22,7 @@ const Navbar = () => {
                     <div className='hidden lg:flex items-center gap-8 font-medium text-base text-black'>
                         <NavLink to={'/'}>Home</NavLink>
                         <NavLink to={'/apps'}>Apps</NavLink>
-                        <NavLink to={'/installation'}>Installation</NavLink>
+                        <NavLink to={'/installation'}>My Installation</NavLink>
                     </div>
 
                     {/* Right side */}
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className='flex flex-col px-3 text-black shadow-md'>
                     <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/'}>Home</Link>
                     <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/apps'}>Apps</Link>
-                    <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/installation'}>Installation</Link>
+                    <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/installation'}>My Installation</Link>
                 </div>
             }
         </>
