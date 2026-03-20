@@ -1,16 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import AppStatDetails from './AppStatDetails';
 import downloadImg from '../../../assets/icon-downloads.png';
 import starIcon from '../../../assets/icon-ratings.png';
 import reviewIcon from '../../../assets/icon-review.png';
+import { addCart, getCart } from '../../../utilities/utilities';
 
 const AppStat = ({ appData }) => {
-    const { image, title, companyName, size, reviews, ratingAvg, downloads, ratings } = appData;
+    const { id, image, title, companyName, size, reviews, ratingAvg, downloads } = appData;
+
+    const [install, setInstall] = useState(() => {
+        const storedCartIds = getCart();
+        return storedCartIds.includes(id);
+    });
+
+    // Handle Install Now Button
+    const handleInstallNowBtn = () => {
+        setInstall(true);
+
+        // save to local storage
+        addCart(id);
+    }
+
+
     return (
         <div className='flex flex-col lg:flex-row items-center gap-10 border-b border-secondary/20 pb-10 '>
             {/* Image */}
-            <div className='w-87.5 h-87.5 shadow-md flex-1'>
-                <img className='h-full w-full' src={image} alt="" />
+            <div className='flex-1'>
+                <img className='h-full w-full object-contain' src={image} alt="" />
             </div>
 
             {/* Content */}
@@ -43,8 +59,13 @@ const AppStat = ({ appData }) => {
                 </div>
 
                 {/* Button */}
-                <button className='px-5 py-4 rounded-sm bg-[#00D390] text-white font-semibold text-xl mt-8 cursor-pointer'>
-                    Install Now ({size}) MB
+                <button
+                    onClick={handleInstallNowBtn}
+                    disabled={install}
+                    className={`px-5 py-4 rounded-sm text-white font-semibold text-xl mt-8 ${install ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390] cursor-pointer'}`}>
+                    {
+                        install ? "Installed" : `Install Now (${size}) MB`
+                    }
                 </button>
             </div>
         </div>

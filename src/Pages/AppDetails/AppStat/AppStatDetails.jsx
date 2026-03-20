@@ -2,7 +2,7 @@ import React from 'react';
 
 const AppStatDetails = ({ icon, title, number }) => {
     return (
-        <div className='flex md:flex-col items-center md:items-start gap-8 lg:gap-2'>
+        <div className='flex md:flex-col items-center md:items-start gap-8 md:gap-2'>
             {/* Image */}
             <div>
                 <img src={icon} alt="" />
