@@ -16,6 +16,14 @@ const saveCartToLocalStorage = (cartData) => {
     localStorage.setItem('cart', cartStringified);
 }
 
+// Remove Cart Item from local storage
+const removeCartItem = (appId) => {
+    const cart = getCartFromLocalStorage();
+    const remainingCartItems = cart.filter(items => items !== appId);
+
+    saveCartToLocalStorage(remainingCartItems);
+}
+
 // Add Cart Data To Local Storage
 const addCartToLocalStorage = (appId) => {
     const cart = getCartFromLocalStorage();
@@ -25,4 +33,8 @@ const addCartToLocalStorage = (appId) => {
     saveCartToLocalStorage(newCart);
 }
 
-export { addCartToLocalStorage as addCart, getCartFromLocalStorage as getCart }
+export {
+    addCartToLocalStorage as addCart,
+    getCartFromLocalStorage as getCart,
+    removeCartItem as removeCart
+}

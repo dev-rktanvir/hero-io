@@ -2,8 +2,8 @@ import React from 'react';
 import downloadImg from '../../../assets/icon-downloads.png';
 import startImg from '../../../assets/icon-ratings.png';
 
-const InstallDetails = ({ insApp }) => {
-    const { image, title, downloads, ratingAvg, size } = insApp
+const InstallDetails = ({ insApp, handleUninstall }) => {
+    const { id, image, title, downloads, ratingAvg, size } = insApp
     return (
         <div className='bg-white p-4 mb-4 rounded-sm flex gap-5 flex-col md:flex-row items-center justify-between'>
             {/* Left side */}
@@ -41,7 +41,7 @@ const InstallDetails = ({ insApp }) => {
 
             {/* Right side */}
             <div>
-                <button className='px-4 py-3 rounded-sm bg-[#00D390] font-semibold text-white cursor-pointer'>Uninstall</button>
+                <button onClick={() => handleUninstall(id)} className='px-4 py-3 rounded-sm bg-[#00D390] font-semibold text-white cursor-pointer'>Uninstall</button>
             </div>
         </div>
     );
