@@ -44,9 +44,9 @@ const Navbar = () => {
             {
                 openMenu &&
                 <div className='flex flex-col px-3 text-black shadow-md'>
-                    <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/'}>Home</Link>
-                    <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/apps'}>Apps</Link>
-                    <Link className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/installation'}>My Installation</Link>
+                    <Link onClick={() => setOpenMenu(false)} className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/'}>Home</Link>
+                    <Link onClick={() => setOpenMenu(false)} className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/apps'}>Apps</Link>
+                    <Link onClick={() => setOpenMenu(false)} className="hover:text-white p-4 hover:bg-[#9F62F2]" to={'/installation'}>My Installation</Link>
                 </div>
             }
         </>

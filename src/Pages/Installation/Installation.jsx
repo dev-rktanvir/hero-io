@@ -15,11 +15,12 @@ const Installation = () => {
 
     // Handle sort
     const handleSort = (sortType) => {
+        let sortedApps = [...showApps];
         if (sortType === "high") {
-            setShowApps(installedApps.sort((a, b) => b.downloads - a.downloads));
+            setShowApps(sortedApps.sort((a, b) => b.downloads - a.downloads));
         }
         if (sortType === "low") {
-            setShowApps(installedApps.sort((a, b) => a.downloads - b.downloads));
+            setShowApps(sortedApps.sort((a, b) => a.downloads - b.downloads));
         }
     }
 
@@ -37,7 +38,7 @@ const Installation = () => {
                     title={"OPPS!! NO INSTALLED APP FOUND"}
                     text={"You don't install any app. Visit our Apps page and install your lovely apps"}></AppNotFound>
                     :
-                    <div className='container mx-auto px-3 py-10 lg:py-20 text-center'>
+                    <div className='min-h-screen container mx-auto px-3 py-10 lg:py-20 text-center'>
                         {/* Title & Sub Title */}
                         <div>
                             <h2 className='font-bold text-4xl md:text-5xl text-primary'>Your Installed Apps</h2>
